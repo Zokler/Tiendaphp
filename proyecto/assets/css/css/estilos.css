@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Overlock', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+	background: -webkit-linear-gradient(#FFF, #DDD);
+	background: -moz-linear-gradient(#FFF, #DDD);
+	background: linear-gradient(#FFF, #DDD);
+
+    /*background: #7D8AE8;*/
+
+    font-family: 'Overlock', cursive;
+}
+
+
+.contenedor{
+	background: #333;
+	height: auto;
+	width: 100%;
+}
+
+
+.FondoParallax .parallax{
+	height: 500px;
+	width: 100%;
+	margin-bottom: 50px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: table;
+	opacity: 0.8;
+}
+
+.FondoParallax{
+	width: 100%;
+	height: auto;
+	background: #333;
+}
+
+.parallax .Botones{
+	width: 200px;
+	height: 200px;
+	margin-top: 150px;
+}
+
+
+.footer{
+	height: auto;
+	width: 100%;
+	background: -webkit-linear-gradient(#000, #333);
+	background: -moz-linear-gradient(#000, #333);
+	background: linear-gradient(#000, #333);
+
+}
+
+.MenuNavegacion{
+	background: -webkit-linear-gradient(#000, #333);
+	background: -moz-linear-gradient(#000, #333);
+	background: linear-gradient(#000, #333);
+
+}
+
+.NavegadorLetras{
+	color: #FFF;
+}
+
+.NavegadorLetras:hover{
+	color: #01B1EA;
+}
